@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Infinity Travel</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Cache-Control" content="max-age=3600, must-revalidate">
+
+    <!-- Js scripts -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script> <!-- ask -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js'></script>
+    <script src="{% static 'touristApp/fontobserver.js' %}"></script>
+    <script src="{% static 'touristApp/script.js' %}"></script>
+
+    <!-- Css preloader styles -->
+    <link rel="stylesheet" href="{% static 'touristApp/preloader.css' %}">
+</head>
+<body>
+{% include 'header.html' %}
+
+{% include 'main.html' %}
+{% include 'footer.html' %}
+{% include 'Modals/modals.html' %}
+
+<div class="after-load"></div>
+<!-- Css styles -->
+<link rel="stylesheet" href="{% static 'touristApp/styles.css' %}">
+
+{% include 'JScripts.html' %}
+</body>
+</html>

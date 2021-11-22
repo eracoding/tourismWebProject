@@ -1,0 +1,30 @@
+{% load static %}
+<header>
+    <div class="preloader-wrap">
+        <div class="preloader">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    {% include 'navbar.html' %}
+    <div class="video-bg">
+        <video autoplay loop muted preload="auto">
+            <source src="{% static 'touristApp/video/singapore.mp4' %}"
+                    type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            <source src="{% static 'touristApp/video/singapore.webm' %}" type='video/webm; codecs="vp8, vorbis"'>
+        </video>
+    </div>
+    <div class="header-content container">
+        <h1 class="page-title">Большой Заголовок Сайта</h1>
+        <p class="page-desc">Подзаголовок на шапке сайта ввиде параграфа и не большого текста</p>
+        <a href="#tours" class="btn-primary">Посмотреть туры</a>
+    </div>
+</header>

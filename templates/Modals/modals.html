@@ -1,0 +1,1940 @@
+{% load static %}
+{% load webp %}
+<div class="modals">
+    <div class="details-modal malaysia">
+        <span class="close"><i class="fas fa-times"></i></span>
+        <div class="content">
+            <h3 class="title-secondary">Ташкент - Сингапур - Малайзия</h3>
+            <div class="tab">
+                {% include 'Modals/modelTab.html' %}
+                <div class="tabs">
+                    {% include 'Modals/modalsDescription.html' %}
+                    {% include 'Modals/modalsInclude.html' %}
+                    {% include 'Modals/modalsProgram.html' %}
+                    {% include 'Modals/modalsHotel.html' %}
+                    {% include 'Modals/modalsPrice.html' %}
+                    {% include 'Modals/modalsPhoto.html' %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="details-modal dubai">
+        <span class="close"><i class="fas fa-times"></i></span>
+        <div class="content">
+            <h3 class="title-secondary">Ташкент – Дубай – Абу Даби</h3>
+            <div class="tab">
+                <input type="radio" id="checkbox-dubai-1" class="checkbox checkbox-1" name="tab-dubai" checked>
+                <input type="radio" id="checkbox-dubai-2" class="checkbox checkbox-2" name="tab-dubai">
+                <input type="radio" id="checkbox-dubai-3" class="checkbox checkbox-3" name="tab-dubai">
+                <input type="radio" id="checkbox-dubai-4" class="checkbox checkbox-4" name="tab-dubai">
+                <input type="radio" id="checkbox-dubai-5" class="checkbox checkbox-5" name="tab-dubai">
+                <input type="radio" id="checkbox-dubai-6" class="checkbox checkbox-6" name="tab-dubai">
+                <div class="tab-nav">
+                    <div class="tab-item">
+                        <label for="checkbox-dubai-1" class="checker checker-1">
+                            <i class="fas fa-file-alt"></i>
+                            <p>Описание</p>
+                        </label>
+                    </div>
+                    <div class="tab-item">
+                        <label for="checkbox-dubai-2" class="checker checker-2">
+                            <i class="fas fa-hand-holding-usd"></i>
+                            <p>В стоимосте</p>
+                        </label>
+                    </div>
+                    <div class="tab-item">
+                        <label for="checkbox-dubai-3" class="checker checker-3">
+                            <i class="fas fa-list"></i>
+                            <p>Программа</p>
+                        </label>
+                    </div>
+                    <div class="tab-item">
+                        <label for="checkbox-dubai-4" class="checker checker-4">
+                            <i class="fas fa-hotel"></i>
+                            <p>Отели</p>
+                        </label>
+                    </div>
+                    <div class="tab-item">
+                        <label for="checkbox-dubai-5" class="checker checker-5">
+                            <i class="fas fa-coins"></i>
+                            <p>Цены</p>
+                        </label>
+                    </div>
+                    <div class="tab-item">
+                        <label for="checkbox-dubai-6" class="checker checker-6">
+                            <i class="fas fa-images"></i>
+                            <p>Фото</p>
+                        </label>
+                    </div>
+                </div>
+                <div class="tabs">
+                    <div class="tab-content tab-1">
+                        <div class="container center">
+                            <p class="paragraph">Тут должен быть текст о туре который расскажет пользовотелю что он
+                                увидит в туре. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, ullam!
+                                Placeat accusantium nemo rem cumque ex quisquam perferendis sint corrupti quidem
+                                veritatis, ducimus nihil quibusdam non, dicta illum? Ex, deserunt.</p>
+                            <p class="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, ullam!
+                                Placeat accusantium nemo rem cumque ex quisquam perferendis sint corrupti quidem
+                                veritatis, ducimus nihil quibusdam non, dicta illum? Ex, deserunt.</p>
+                            <div class="flex-around-center row-with-price">
+                                <div class="price">Цена: 3.970.000сум (на 1 человека)</div>
+                                <h3 class="title-tertiary">Длительность: 5 дней/ 4 ночей</h3><br>
+                            </div>
+                            {% include 'Modals/modalsOrder.html' %}
+                             <!--<input type="hidden" name="tour" value="Ташкент – Дубай – Абу Даби">-->
+                        </div>
+                    </div>
+                    <div class="tab-content tab-2">
+                        <div class="container">
+                            <div class="flex-around">
+                                <div>
+                                    <h3 class="title-tertiary">В стоимость тура входит:</h3>
+                                    <ul class="plane">
+                                        <li>1 ночь в Абу-Даби</li>
+                                        <li>3 ночи в Дубае</li>
+                                        <li>Все завтраки</li>
+                                        <li>Пол дня экскурсия по Дубаю</li>
+                                        <li>Экскурсия по Абу-Даби на полдня</li>
+                                        <li>Сафари по пустыне с барбекю и с танцем живота</li>
+                                        <li>Dhow круиз с ужином</li>
+                                        <li>Трансфер из аэропорта</li>
+                                        <li>Все трансферы на автобусе</li>
+                                        <li>Туристическая виза в Дубай</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h3 class="title-tertiary">В стоимость тура не входит:</h3>
+                                    <ul class="plane">
+                                        <li>Авиа-перелёты</li>
+                                        <li>Консульский сбор</li>
+                                        <li>Услуги фирмы</li>
+                                        <li>Медицинская страховка</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content tab-3">
+                        <div class="container-mini">
+                            <div class="tour-program">
+                                <div class="line"></div>
+                                <div class="steps">
+                                    <div class="step">
+                                        <span class="step-icon">1</span>
+                                        <p><strong>Day 1</strong> Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Qui exercitationem autem odit quibusdam neque repudiandae minima ut
+                                            quisquam fugiat voluptatibus excepturi laudantium, temporibus repellendus
+                                            atque? Modi voluptate facere alias consectetur hic, debitis non nemo
+                                            tempore, voluptatibus sunt inventore sapiente, fugit quod temporibus
+                                            veritatis atque laboriosam adipisci placeat dolorem dolor aspernatur
+                                            explicabo aut voluptatum cupiditate! Adipisci dolorem autem temporibus
+                                            sapiente eos perferendis, hic accusamus, ea sit voluptas dignissimos iure
+                                            laboriosam harum incidunt reiciendis, quia magni. Error ut ipsa placeat,
+                                            doloremque, rem ea aspernatur magni, necessitatibus nihil blanditiis atque
+                                            quas suscipit nostrum cumque quaerat nam. Placeat repudiandae officiis,
+                                            quidem dignissimos labore quod.</p>
+                                    </div>
+                                    <div class="step">
+                                        <span class="step-icon">1</span>
+                                        <p><strong>Day 2</strong> Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Qui exercitationem autem odit quibusdam neque repudiandae minima ut
+                                            quisquam fugiat voluptatibus excepturi laudantium, temporibus repellendus
+                                            atque? Modi voluptate facere alias consectetur hic, debitis non nemo
+                                            tempore, voluptatibus sunt inventore sapiente, fugit quod temporibus
+                                            veritatis atque laboriosam adipisci placeat dolorem dolor aspernatur
+                                            explicabo aut voluptatum cupiditate! Adipisci dolorem autem temporibus
+                                            sapiente eos perferendis, hic accusamus, ea sit voluptas dignissimos iure
+                                            laboriosam harum incidunt reiciendis, quia magni. Error ut ipsa placeat,
+                                            doloremque, rem ea aspernatur magni, necessitatibus nihil blanditiis atque
+                                            quas suscipit nostrum cumque quaerat nam. Placeat repudiandae officiis,
+                                            quidem dignissimos labore quod.</p>
+                                    </div>
+                                    <div class="step">
+                                        <span class="step-icon">1</span>
+                                        <p><strong>Day 3</strong> Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Qui exercitationem autem odit quibusdam neque repudiandae minima ut
+                                            quisquam fugiat voluptatibus excepturi laudantium, temporibus repellendus
+                                            atque? Modi voluptate facere alias consectetur hic, debitis non nemo
+                                            tempore, voluptatibus sunt inventore sapiente, fugit quod temporibus
+                                            veritatis atque laboriosam adipisci placeat dolorem dolor aspernatur
+                                            explicabo aut voluptatum cupiditate! Adipisci dolorem autem temporibus
+                                            sapiente eos perferendis, hic accusamus, ea sit voluptas dignissimos iure
+                                            laboriosam harum incidunt reiciendis, quia magni. Error ut ipsa placeat,
+                                            doloremque, rem ea aspernatur magni, necessitatibus nihil blanditiis atque
+                                            quas suscipit nostrum cumque quaerat nam. Placeat repudiandae officiis,
+                                            quidem dignissimos labore quod.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content tab-4">
+                        <div class="container center">
+                            <h3 class="title-tertiary">Отель Premier INN в Абу-Даби или похожее</h3>
+                            <div>
+                                <img class="hotel-image hide-xs"
+                                     src="{% static 'touristApp/images/hotels/premium-inn.jpg' %}"
+                                     alt="Отель Премиум ИНН">
+                                <img class="hotel-image show-xs"
+                                     src="{% static 'touristApp/images/hotels/premium-inn-xs.jpg' %}"
+                                     alt="Отель Премиум ИНН">
+                            </div>
+                            <h3 class="title-tertiary">Отель Fortune в Дубае</h3>
+                            <div>
+                                <img class="hotel-image hide-xs"
+                                     src="{% static 'touristApp/images/hotels/fortune-hotel.jpg' %}"
+                                     alt="Отель Fortune">
+                                <img class="hotel-image show-xs"
+                                     src="{% static 'touristApp/images/hotels/fortune-hotel-xs.jpg' %}"
+                                     alt="Отель Fortune">
+                            </div>
+                            <h3 class="title-tertiary">Отель Rio Hotel в Дубае</h3>
+                            <div>
+                                <img class="hotel-image hide-xs"
+                                     src="{% static 'touristApp/images/hotels/rio-hotel.jpg' %}" alt="Отель Rio Hotel">
+                                <img class="hotel-image show-xs"
+                                     src="{% static 'touristApp/images/hotels/rio-hotel-xs.jpg' %}"
+                                     alt="Отель Rio Hotel">
+                            </div>
+                            <h3 class="title-tertiary">Отель Panorama Grand в Дубае или похожее</h3>
+                            <div>
+                                <img class="hotel-image hide-xs"
+                                     src="{% static 'touristApp/images/hotels/panorama-grand.jpg' %}"
+                                     alt="Отель Panorama Grand">
+                                <img class="hotel-image show-xs"
+                                     src="{% static 'touristApp/images/hotels/panorama-grand-xs.jpg' %}"
+                                     alt="Отель Panorama Grand">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content tab-5">
+                        <div class="container">
+                            <h2 class="title-primary">Тут должны быть цены :)</h2>
+                        </div>
+                    </div>
+                    <div class="tab-content tab-6">
+                        <div class="container center">
+                            <div class="row">
+                                <div class="half">
+                                    <img data-src-webp="{% static 'touristApp/images/webp/dubai-image-1.webp' %}"
+                                         class="hide-xs" src="{% static 'touristApp/images/dubai-image-1.jpg' %}"
+                                         alt="">
+                                    <img data-src-webp="{% static 'touristApp/images/webp/dubai-image-1-xs.webp' %}"
+                                         class="show-xs" src="{% static 'touristApp/images/dubai-image-1-xs.jpg' %}"
+                                         alt="">
+                                </div>
+                                <div class="half">
+                                    <img data-src-webp="{% static 'touristApp/images/webp/dubai-image-2.webp' %}"
+                                         class="hide-xs" src="{% static 'touristApp/images/dubai-image-2.jpg' %}"
+                                         alt="">
+                                    <img data-src-webp="{% static 'touristApp/images/webp/dubai-image-2-xs.webp' %}"
+                                         class="show-xs" src="{% static 'touristApp/images/dubai-image-2-xs.jpg' %}"
+                                         alt="">
+                                </div>
+                                <div class="third">
+                                    <img data-src-webp="{% static 'touristApp/images/webp/dubai-image-3.webp' %}"
+                                         class="hide-xs" src="{% static 'touristApp/images/dubai-image-3.jpg' %}"
+                                         alt="">
+                                    <img data-src-webp="{% static 'touristApp/images/webp/dubai-image-3-xs.webp' %}"
+                                         class="show-xs" src="{% static 'touristApp/images/dubai-image-3-xs.jpg' %}"
+                                         alt="">
+                                </div>
+                                <div class="third">
+                                    <img data-src-webp="{% static 'touristApp/images/webp/dubai-image-4.webp' %}"
+                                         class="hide-xs" src="{% static 'touristApp/images/dubai-image-4.jpg' %}"
+                                         alt="">
+                                    <img data-src-webp="{% static 'touristApp/images/webp/dubai-image-4-xs.webp' %}"
+                                         class="show-xs" src="{% static 'touristApp/images/dubai-image-4-xs.jpg' %}"
+                                         alt="">
+                                </div>
+                                <div class="third">
+                                    <img data-src-webp="{% static 'touristApp/images/webp/dubai-image-5.webp' %}"
+                                         class="hide-xs" src="{% static 'touristApp/images/dubai-image-5.jpg' %}"
+                                         alt="">
+                                    <img data-src-webp="{% static 'touristApp/images/webp/dubai-image-5-xs.webp' %}"
+                                         class="show-xs" src="{% static 'touristApp/images/dubai-image-5-xs.jpg' %}"
+                                         alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="details-modal srilanka">
+        <span class="close"><i class="fas fa-times"></i></span>
+        <div class="content">
+            <h3 class="title-secondary">Шри-Ланка</h3>
+            <div class="tab">
+                <input type="radio" id="checkbox-srilanka-1" class="checkbox checkbox-1" name="tab-srilanka" checked>
+                <input type="radio" id="checkbox-srilanka-2" class="checkbox checkbox-2" name="tab-srilanka">
+                <input type="radio" id="checkbox-srilanka-3" class="checkbox checkbox-3" name="tab-srilanka">
+                <input type="radio" id="checkbox-srilanka-4" class="checkbox checkbox-4" name="tab-srilanka">
+                <input type="radio" id="checkbox-srilanka-5" class="checkbox checkbox-5" name="tab-srilanka">
+
+                <div class="tab-nav">
+                    <div class="tab-item">
+                        <label for="checkbox-srilanka-1" class="checker checker-1">
+                            <i class="fas fa-file-alt"></i>
+                            <p>Описание</p>
+                        </label>
+                    </div>
+                    <div class="tab-item">
+                        <label for="checkbox-srilanka-2" class="checker checker-2">
+                            <i class="fas fa-hand-holding-usd"></i>
+                            <p>В стоимосте</p>
+                        </label>
+                    </div>
+                    <div class="tab-item">
+                        <label for="checkbox-srilanka-3" class="checker checker-3">
+                            <i class="fas fa-list"></i>
+                            <p>Программа</p>
+                        </label>
+                    </div>
+                    <div class="tab-item">
+                        <label for="checkbox-srilanka-4" class="checker checker-4">
+                            <i class="fas fa-coins"></i>
+                            <p>Цены</p>
+                        </label>
+                    </div>
+                    <div class="tab-item">
+                        <label for="checkbox-srilanka-5" class="checker checker-5">
+                            <i class="fas fa-images"></i>
+                            <p>О курорте</p>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="tabs">
+                    <div class="tab-content tab-1">
+                        <div class="container center">
+                            <p class="paragraph">Красивые пляжи, пышные леса, горы и земля благословил с богатой и яркой
+                                культурой, которая восходит к тысячам лет. Это был бы хороший способ описать Шри-Ланку,
+                                райский остров. Это и многое другое. По рейтингу "Lonely Planet" как номер один
+                                назначения путешествия на 2020 год, Шри-Ланка действительно рай, как никто другой. Здесь
+                                обитают одни из самых красивых пляжей мира, а также тропические леса и леса с усыпи, а
+                                также величественные горные хребты, не забывая об исторических объектах всемирного
+                                наследия</p>
+                            <div class="flex-around-center row-with-price">
+                                <div class="price">Цена: 990$ <span class="nowrap">(на 1 человека)</span></div>
+                                <h3 class="title-tertiary">Длительность: 8 дней/ 7 ночей</h3><br>
+                            </div>
+                            {% include 'Modals/modalsOrder.html' %}
+                            <!--<input type="hidden" name="tour" value="Шри-Ланка">-->
+                        </div>
+                    </div>
+                    <div class="tab-content tab-2">
+                        <div class="container">
+                            <div class="flex-around in-cost">
+                                <div class="left">
+                                    <h3 class="title-tertiary">В стоимость тура входит:</h3>
+                                    <ul class="plane">
+                                        <li>Встреча в аэропорту</li>
+                                        <li>Проживание и завтрак / проживание на упомянутых ниже отелях</li>
+                                        <li>личный роскошный автомобиль (с кондиционером)</li>
+                                        <li>личный англоговорящий водитель на весь путь</li>
+                                        <li>Коломбо и шоппинг - 3 часа</li>
+                                        <li>Обзорная экскурсия по Канди - 2 часа</li>
+                                        <li>Посещение сада специй</li>
+                                        <li>Цейлонская фабрика драгоценных камней</li>
+                                        <li>Цейлонский батик, посещение фабрики одежды</li>
+                                        <li>Посещение ремесленной фабрики</li>
+                                        <li>Посещение чайной плантации</li>
+                                        <li>Все государственные налоги</li>
+                                        <li>Топливо и местная страховка на автомобиль</li>
+                                        <li>Доставка в аэропорт</li>
+                                    </ul>
+                                </div>
+                                <div class="right">
+                                    <h3 class="title-tertiary">В стоимость тура не входит:</h3>
+                                    <ul class="plane">
+                                        <li>Авиа-перелёты</li>
+                                        <li>Стоимость входного билета на экскурсию (если не указано в разделе
+                                            «Включения»)
+                                        </li>
+                                        <li>Питание, не упомянутое в маршруте</li>
+                                        <li>Разрешения на камеру и видео</li>
+                                        <li>Страховка</li>
+                                        <li>Руководство / Советы водителя</li>
+                                        <li>Личные расходы</li>
+                                        <li>Поздний выезд и ранний заезд</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="tour-car">
+                                <div class="row">
+                                    <div class="photo">
+                                        <img src="{% static 'touristApp/images/srilanka-car.jpg' %}" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <ul class="list-disc">
+                                            <li>Марка: Toyota</li>
+                                            <li>Модель: Axio</li>
+                                            <li>Состояние: Новый</li>
+                                            <li>Сидении: 3</li>
+                                            <li>Максимальная вместимость: 2</li>
+                                            <li>Багажное отделение: 2</li>
+                                            <li>Кондиционер: Есть</li>
+                                            <li>Доступность: Доступно</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <div class="ps">* Примечание: продолжительность поездки, указанная в этом маршруте,
+                                    может быть изменена из-за дороги, движения и погоды
+                                </div>
+                                <div class="ps">Условия. Эти предлагаемые длительности являются оценочными от точки к
+                                    точке без каких-либо остановок.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content tab-3">
+                        <div class="container-mini">
+                            <div class="tour-program">
+                                <div class="steps">
+                                    <div class="step">
+                                        <span class="step-icon">1</span>
+                                        <h4 class="title-tertiary"><strong>1 - день. Негомбо</strong></h4>
+                                        <div>
+                                            <img src="{% static 'touristApp/images/srilanka-1.jpg' %}" alt="">
+                                        </div>
+                                        <p class="text">Первый день вашего тура поможет вам расслабиться и отдохнуть
+                                            после полета в приморском городе Негомбо, где вы можете прогуляться по
+                                            одному из крупнейших пляжей страны, а также попробовать поливку свежими
+                                            морепродуктами, о которых вы вспоминаете на ваши путешествия на райском
+                                            острове и омолодить себя перед отъездом</p>
+                                        <ul class="list-disc">
+                                            <li>Прибытие и помощь в аэропорту Прибыть в Негомбо</li>
+                                            <li>Посетите канал Гамильтон и старый голландский форт в Негомбо</li>
+                                            <li>Negombo славится своими водными видами спорта. Jet Ski, Банана и Труба
+                                                Лодка, Дайвинг, Подводное плавание, Кайт-серфинг, Рыбалка и Глубокое
+                                                море рыбалка являются лишь одними из списка популярных
+                                            </li>
+                                            <li>Negombo является идеальным местом, чтобы насладиться красивым ясным
+                                                закатом на пляже. Насладитесь прогулкой по пляжу и засвидетельствуй
+                                                истинную красоту нашего рая
+                                            </li>
+                                            <li>Negombo идеально подходит для ночной жизни в Шри-Ланке. Если не устал,
+                                                прогуляться по пляжной дороге и прыгать в некоторые из наших местных
+                                                пабов
+                                            </li>
+                                            <li>Ночевка и отдых в Amagi Ария (4 звезды) в Негомбо</li>
+                                            <li>План питания на 1 день - Кровать и завтрак</li>
+                                            <li>Ориентировочное время в пути от международного аэропорта Бандаранаике до
+                                                Негомбо составляет 25 минут».
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="step">
+                                        <span class="step-icon">2</span>
+                                        <h4 class="title-tertiary"><strong>2 - день. Сигирий</strong></h4>
+                                        <div>
+                                            <img src="{% static 'touristApp/images/srilanka-2.jpg' %}" alt="">
+                                        </div>
+                                        <p class="text">Сегодня Сигирия предлагает своим посетителям галерею картин 5-го
+                                            века, укомплектованных ландшафтными садами, не имеющими себе равных ни в
+                                            одной современной цитадели мира. В 600 футах, вид из королевского павильона
+                                            сестренки потрясающе красив. Валун и сады удовольствий, которыми восхищались
+                                            1500 лет, отражают мастерство и технику первых инженеров. принципы,
+                                            используемые при проектировании садов, а также при строительстве как
+                                            симметричных, так и асимметричных структур, в значительной степени говорят
+                                            об искусстве и архитектуре Шри-Ланки 5-го века</p>
+                                        <ul class="list-disc">
+                                            <li>После завтрака в отеле, продолжить путь в Сигирию</li>
+                                            <li>По пути посетите самый удивительный "Pinnawala" детский приют для слонов
+                                                на пути к Сигири
+                                            </li>
+                                            <li>Самая известная достопримечательность Шри-Ланки. Свидетель крепости,
+                                                которая была построена на скале 2500 лет назад. Упакуйте снаряжение и
+                                                будьте готовы подняться на 1200 ступенек!
+                                            </li>
+                                            <li>Посетите пещеру Кобра Худ в скалистой крепости Сигирия</li>
+                                            <li>Посмотрите на самые известные Сигирийские Фрески (1600-летние картины)
+                                            </li>
+                                            <li>Затем вы покатаетесь на прекрасных традиционных лодках Шри-Ланки</li>
+                                            <li>Познакомьтесь с культурой и деревни Шри-Ланки</li>
+                                            <li>Следующим, будьте свидетелем крупнейшего сбора диких слонов, более 200
+                                                слонов собираются на одном месте.
+                                            </li>
+                                            <li>Ночевка в деревне Хабарана в гостинице Синнамон (4 звезды) в Сигирии.
+                                            </li>
+                                            <li>Завтрак в постель</li>
+                                            <li>Примерное время в пути от Негомбо до Сигирии - 3 часа 39 минут.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="step">
+                                        <span class="step-icon">3</span>
+                                        <h4 class="title-tertiary"><strong>3 - день. Канди</strong></h4>
+                                        <div>
+                                            <img src="{% static 'touristApp/images/srilanka-3.jpg' %}" alt="">
+                                        </div>
+                                        <p class="text">Канди, культурная столица Шри-Ланки, является одним из самых
+                                            красивых городов в мире. Эта столица, найденная Вималадхарамсурья I в 1592
+                                            году, была резиденцией правительства во время голландской и португальской
+                                            оккупации морских провинций и вплоть до британского правления в 1815 году.
+                                            Она расположена на плато, окруженном горами, где находятся чайные плантации
+                                            и тропические леса, обитающие в биоразнообразии.</p>
+                                        <ul class="list-disc">
+                                            <li>После завтрака в отеле переезд в Канди</li>
+                                            <li>По дороге посещение пещерного храма Дамбулла</li>
+                                            <li>Узнайте больше о специях Шри-Ланки, примите участие в Spice Village
+                                                Tour
+                                            </li>
+                                            <li>Узнайте о самых известных драгоценных камнях Цейлона</li>
+                                            <li>Узнайте о том, как делаются шри-ланкийские ремесла и знаменитые батики
+                                            </li>
+                                            <li>Посетите одну из самых больших достопримечательностей Шри-Ланки, Храм
+                                                Священного Зуба Будды (также известный как Храм Канди и Далада Малигава)
+                                            </li>
+                                            <li>Позже, если позволит время, примите участие в шри-ланкийском
+                                                традиционном культурном шоу
+                                            </li>
+                                            <li>Ночевка и отдых в Цитадели Синнамон (4 звезды) в Канди</li>
+                                            <li>Завтрак в постель</li>
+                                            <li>Примерное время в пути из Сигирии в Канди составляет 2 часа 29 минут.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="step">
+                                        <span class="step-icon">4</span>
+                                        <h4 class="title-tertiary"><strong>4 - день. Нувара Элия</strong></h4>
+                                        <div>
+                                            <img src="{% static 'touristApp/images/srilanka-4.jpg' %}" alt="">
+                                        </div>
+                                        <p class="text">Нувара Элия, известная как город-сад в Азии своими холмами,
+                                            долинами и водопадами, находится на высоте 6 182 фута над уровнем моря и
+                                            расположена у подножия горы Пидуруталагала, самой высокой вершины Шри-Ланки.
+                                            Нувара Элия была открыта в 1819 году сэром Сэмюэлем Бейкером, известным
+                                            исследователем, открывшим источник Нила. После этого была основана
+                                            английская деревня, остатки которой все еще можно увидеть. Колониальное
+                                            правительство обычно переезжало в Нувара Элия на 3 месяца в году: март,
+                                            апрель и май, когда в Коломбо было тепло и влажно.</p>
+                                        <ul class="list-disc">
+                                            <li>После завтрака в отеле переезд в Нувара Элия</li>
+                                            <li>По дороге в Нувара Элия (Маленькая Англия), возле района «Рамбода»,
+                                                остановка в индуистском храме «Шри Бхакта Хануман» на несколько минут
+                                            </li>
+                                            <li>Подготовьте свои камеры. Следующая остановка у красивого водопада
+                                                «Рамбода».
+                                            </li>
+                                            <li>Убедитесь, что вы упаковали свою камеру, будет несколько остановок,
+                                                чтобы захватить захватывающие дух виды Шри-Ланкийские зеленые холмы
+                                            </li>
+                                            <li>Знаменитая остановка на пути к холмам Шри-Ланки, чайная плантация
+                                                «Лабукале»
+                                            </li>
+                                            <li>В свободное время уделите время посещению озера Грегори на закате и
+                                                прогулке по «Маленькой Англии».
+                                            </li>
+                                            <li>Ночевка и отдых на Голуэй Хайтс (4 звезды) в Нувара Элия</li>
+                                            <li>Завтрак в постель</li>
+                                            <li>Приблизительное время в пути от Канди до Нувара-Элии составляет 2 часа
+                                                28 минут.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="step">
+                                        <span class="step-icon">5</span>
+                                        <h4 class="title-tertiary"><strong>5 - день. Бентота</strong></h4>
+                                        <div>
+                                            <img src="{% static 'touristApp/images/srilanka-5.jpg' %}" alt="">
+                                        </div>
+                                        <p class="text">Бентота - город на южном побережье Шри-Ланки, который заставит
+                                            вас затаить дыхание. С видом на Индийский океан, тропическую лагуну и реку
+                                            Мааду, он предлагает вам возможность заняться множеством водных видов
+                                            спорта, таких как пара-парусный спорт и водные лыжи, кайт-серфинг, дайвинг и
+                                            другие водные виды спорта, как нигде больше. Или, может быть, тихое речное
+                                            сафари по водам реки Мааду или лагуна вам больше по душе. В Бентоте также
+                                            расположен длинный пляж, который в основном не переполнен, что делает его
+                                            идеальным для длительных пляжных прогулок или прогулок в бодрящем морском
+                                            воздухе.</p>
+                                        <ul class="list-disc">
+                                            <li>После завтрака в отеле переезд в Бентоту</li>
+                                            <li>Посетите красивый форт Галле и примите участие в экскурсии по городу
+                                                Галле
+                                            </li>
+                                            <li>Затем испытайте удивительную поездку на лодке по реке Маду через
+                                                мангровые заросли (красные водные деревья)
+                                            </li>
+                                            <li>Вдоль реки Маду на лодке вы прибудете на Рыбное хозяйство и, если
+                                                хотите, попробуйте шри-ланкийскую рыбную терапию
+                                            </li>
+                                            <li>Посетите инкубаторий для черепах, узнайте о Шри-Ланкийских черепахах
+                                            </li>
+                                            <li>По желанию - Бентота славится водными видами спорта. Водные лыжи,
+                                                катание на банане и лодке, дайвинг, сноркелинг, кайтсерфинг, рыбалка и
+                                                глубоководная рыбалка - вот лишь некоторые из них.
+                                            </li>
+                                            <li>Совершите прогулку по пляжу и станьте свидетелем самого красивого ясного
+                                                заката в Индийском океане.
+                                            </li>
+                                            <li>Ночь в отеле Mermaid Hotel & Club (4 звезды) в Бентоте.</li>
+                                            <li>Завтрак в постель</li>
+                                            <li>Примерное время в пути от Нувара Элия до Бентоты составляет 7 часов 6
+                                                минут.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="step">
+                                        <span class="step-icon">6</span>
+                                        <h4 class="title-tertiary"><strong>6 - день. Коломбо</strong></h4>
+                                        <div>
+                                            <img src="{% static 'touristApp/images/srilanka-6.jpg' %}" alt="">
+                                        </div>
+                                        <p class="text">Коломбо, столица Шри-Ланки, объединяет старое и новое.
+                                            Колониальные руины и здания контрастируют с высотными отелями и
+                                            коммерческими банками. Почти каждый, кто посещает Шри-Ланку, проводит время
+                                            в этом оживленном городе. Коломбо, порт восьмого века, имеет
+                                            административные, финансовые и другие офисы, имеющие отношение к
+                                            путешественнику. Часть других офисов, имеющих отношение к путешественнику.
+                                            Часть лучших структур его колониального наследия. Город за несколько этапов
+                                            превратился в современный город.</p>
+                                        <ul class="list-disc">
+                                            <li>После завтрака в отеле переезд в Коломбо</li>
+                                            <li>Посетите Галле Лицо Зеленый и Старый Парламент в Шри-Ланке</li>
+                                            <li>Занятой Коломбо Форт Базар, Красная мечеть и голландский музей.</li>
+                                            <li>Наш водитель отвезет вас в буддийский храм «Гангарама». Не забудьте
+                                                взять с собой несколько прекрасных воспоминаний.
+                                            </li>
+                                            <li>Посетите инкубаторий для черепах, узнайте о Шри-Ланкийских черепахах
+                                            </li>
+                                            <li>Совершите небольшую прогулку по парку Зеленая тропа и парк
+                                                Вихарамахадеви. Засвидетельствуйте некоторые красивые картины Цейлона.
+                                            </li>
+                                            <li>Далее посещение Площади Независимости, Аркады Независимости и проездного
+                                                БМИЧ.
+                                            </li>
+                                            <li>Позже продолжаем покупки (ODEL / Noritake / Дом моды / Цейлонские чайные
+                                                магазины / Шри-ланкийские изделия ручной работы и многое другое)
+                                            </li>
+                                            <li>Ночь в отеле Ozo Colombo (4 звезды) в Коломбо.</li>
+                                            <li>Завтрак в постель</li>
+                                            <li>Примерное время в пути от Бентоты до Коломбо составляет 2 часа 14
+                                                минут.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="step">
+                                        <span class="step-icon">7</span>
+                                        <h4 class="title-tertiary"><strong>7 - день. Отъезд</strong></h4>
+                                        <ul class="list">
+                                            <li>После завтрака в отеле в аэропорт</li>
+                                            <li>До свидания от Olanka Travels</li>
+                                        </ul>
+                                        <div>
+                                            <img src="{% static 'touristApp/images/srilanka-tour-map.jpg' %}"
+                                                 alt="Тур карты в Шри-Ланку">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content tab-4">
+                        <div class="container">
+                            <h2 class="title-tertiary">Цена путевки на один человек: 990$</h2>
+                            <h3 class="title-tertiary">Политика отмены Тура</h3>
+                            <ul class="list-disc">
+                                <li>В случае отмены применяются следующие сборы за отмену.</li>
+                                <li>Отмена, сделанная до 30 дней от запланированного начала тура, 80% от общей стоимости
+                                    тура будет возвращена.
+                                </li>
+                                <li>Аннулирование менее чем за 30 дней с начала тура - нулевой возврат.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-content tab-5">
+                        <div class="container-mini center">
+                            <div class="full">
+                                <img data-src-webp="{% static 'touristApp/images/webp/hamilton-canal.webp' %}"
+                                     class="hide-xs" src="{% static 'touristApp/images/hamilton-canal.jpg' %}" alt="">
+                                <img data-src-webp="{% static 'touristApp/images/webp/hamilton-canal-xs.webp' %}"
+                                     class="show-xs" src="{% static 'touristApp/images/hamilton-canal-xs.jpg' %}"
+                                     alt="">
+                                <p>Этот канал протяженностью 14,5 км соединяет Коломбо и Негомбо, построенный британцами
+                                    в 1802 году. Он был спроектирован для отвода соленой воды из водно-болотных угодий
+                                    Мутураджавела</p>
+                            </div>
+                            <div class="full">
+                                <img data-src-webp="{% static 'touristApp/images/webp/cobra_cave.webp' %}"
+                                     class="hide-xs" src="{% static 'touristApp/images/cobra_cave.jpg' %}" alt="">
+                                <img data-src-webp="{% static 'touristApp/images/webp/cobra_cave-xs.webp' %}"
+                                     class="show-xs" src="{% static 'touristApp/images/cobra_cave-xs.jpg' %}" alt="">
+                                <p>Пещера кобры</p>
+                            </div>
+                            <div class="full">
+                                <img data-src-webp="{% static 'touristApp/images/webp/lion-scale.webp' %}"
+                                     class="hide-xs" src="{% static 'touristApp/images/lion-scale.jpg' %}" alt="">
+                                <img data-src-webp="{% static 'touristApp/images/webp/lion-scale-xs.webp' %}"
+                                     class="show-xs" src="{% static 'touristApp/images/lion-scale-xs.jpg' %}" alt="">
+                                <p>Заложен в список Всемирного наследия ЮНЕСКО в 1982 году, возвышается на 200 метров
+                                    над лесной равниной, построенной одержимым монархом в 5 веке..</p>
+                            </div>
+                            <div class="full">
+                                <img data-src-webp="{% static 'touristApp/images/webp/amman-kovil.webp' %}"
+                                     class="hide-xs" src="{% static 'touristApp/images/amman-kovil.jpg' %}" alt="">
+                                <img data-src-webp="{% static 'touristApp/images/webp/amman-kovil-xs.webp' %}"
+                                     class="show-xs" src="{% static 'touristApp/images/amman-kovil-xs.jpg' %}" alt="">
+                                <p>Сита Амман Ковиль</p>
+                                <p>Храм Шри Ситай в Аммане - это уникальный храм. Озеро Григорий является водохранилищем
+                                    в центре города, расположенного на холме, Нувара, построенная в месте, где Сита Мата
+                                    проводила свои дни в Элии. Он был построен в период британской тюрьмы в Раване
+                                    приблизительно 5000 лет назад губернатором сэром Уильямом Грегори в 1873 году.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="details-modal turkey">
+        <span class="close"><i class="fas fa-times"></i></span>
+        <div class="content">
+            <h3 class="title-secondary">Турция</h3>
+            <div class="tab">
+                <input type="radio" id="checkbox-turkey-1" class="checkbox checkbox-1" name="tab-turkey" checked>
+                <input type="radio" id="checkbox-turkey-2" class="checkbox checkbox-2" name="tab-turkey">
+                <input type="radio" id="checkbox-turkey-3" class="checkbox checkbox-3" name="tab-turkey">
+                <input type="radio" id="checkbox-turkey-4" class="checkbox checkbox-4" name="tab-turkey">
+                <input type="radio" id="checkbox-turkey-5" class="checkbox checkbox-5" name="tab-turkey">
+                <input type="radio" id="checkbox-turkey-6" class="checkbox checkbox-6" name="tab-turkey">
+
+                <div class="tab-nav">
+                    <div class="tab-item">
+                        <label for="checkbox-turkey-1" class="checker checker-1">
+                            <i class="fas fa-file-alt"></i>
+                            <p>Описание</p>
+                        </label>
+                    </div>
+                    <div class="tab-item">
+                        <label for="checkbox-turkey-2" class="checker checker-2">
+                            <i class="fas fa-hand-holding-usd"></i>
+                            <p>В стоимосте</p>
+                        </label>
+                    </div>
+                    <div class="tab-item">
+                        <label for="checkbox-turkey-3" class="checker checker-3">
+                            <i class="fas fa-list"></i>
+                            <p>Программа</p>
+                        </label>
+                    </div>
+                    <div class="tab-item">
+                        <label for="checkbox-turkey-4" class="checker checker-4">
+                            <i class="fas fa-hotel"></i>
+                            <p>Отели</p>
+                        </label>
+                    </div>
+                    <div class="tab-item">
+                        <label for="checkbox-turkey-5" class="checker checker-5">
+                            <i class="fas fa-coins"></i>
+                            <p>Цены</p>
+                        </label>
+                    </div>
+                    <div class="tab-item">
+                        <label for="checkbox-turkey-6" class="checker checker-6">
+                            <i class="fas fa-images"></i>
+                            <p>О курорте</p>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="tabs">
+                    <div class="tab-content tab-1">
+                        <div class="container center">
+                            <p class="paragraph">Красивые пляжи, пышные леса, горы и земля благословил с богатой и яркой
+                                культурой, которая восходит к тысячам лет. Это был бы хороший способ описать Шри-Ланку,
+                                райский остров. Это и многое другое. По рейтингу "Lonely Planet" как номер один
+                                назначения путешествия на 2020 год, Шри-Ланка действительно рай, как никто другой. Здесь
+                                обитают одни из самых красивых пляжей мира, а также тропические леса и леса с усыпи, а
+                                также величественные горные хребты, не забывая об исторических объектах всемирного
+                                наследия</p>
+                            <div class="flex-around-center row-with-price">
+                                <div class="price">Цена: NN.NNN.NNNсум <span class="nowrap">(на 1 человека)</span></div>
+                                <h3 class="title-tertiary">Длительность: N дней/ N ночей</h3><br>
+                            </div>
+                            {% include 'Modals/modalsOrder.html' %}
+                            <!--<input type="hidden" name="tour" value="Турция">-->
+                        </div>
+                    </div>
+                    <div class="tab-content tab-2">
+                        <div class="container">
+                            <div class="flex-around in-cost">
+                                <div class="left">
+                                    <h3 class="title-tertiary">В стоимость тура входит:</h3>
+                                    <ul class="plane">
+                                        <li>Встреча в аэропорту</li>
+                                        <li>Проживание и завтрак / проживание на упомянутых ниже отелях</li>
+                                        <li>личный роскошный автомобиль (с кондиционером)</li>
+                                        <li>личный англоговорящий водитель на весь путь</li>
+                                        <li>Коломбо и шоппинг - 3 часа</li>
+                                        <li>Обзорная экскурсия по Канди - 2 часа</li>
+                                        <li>Посещение сада специй</li>
+                                        <li>Цейлонская фабрика драгоценных камней</li>
+                                        <li>Цейлонский батик, посещение фабрики одежды</li>
+                                        <li>Посещение ремесленной фабрики</li>
+                                        <li>Посещение чайной плантации</li>
+                                        <li>Все государственные налоги</li>
+                                        <li>Топливо и местная страховка на автомобиль</li>
+                                        <li>Доставка в аэропорт</li>
+                                    </ul>
+                                </div>
+                                <div class="right">
+                                    <h3 class="title-tertiary">В стоимость тура не входит:</h3>
+                                    <ul class="plane">
+                                        <li>Авиа-перелёты</li>
+                                        <li>Стоимость входного билета на экскурсию (если не указано в разделе
+                                            «Включения»)
+                                        </li>
+                                        <li>Питание, не упомянутое в маршруте</li>
+                                        <li>Разрешения на камеру и видео</li>
+                                        <li>Страховка</li>
+                                        <li>Руководство / Советы водителя</li>
+                                        <li>Личные расходы</li>
+                                        <li>Поздний выезд и ранний заезд</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="tour-car">
+                                <div class="row">
+                                    <div class="photo">
+                                        <img src="{% static 'touristApp/images/srilanka-car.jpg' %}" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <ul class="list-disc">
+                                            <li>Марка: ANY</li>
+                                            <li>Модель: ANY</li>
+                                            <li>Состояние: ANY</li>
+                                            <li>Сидении: ANY</li>
+                                            <li>Максимальная вместимость: ANY</li>
+                                            <li>Багажное отделение: ANY</li>
+                                            <li>Кондиционер: ANY</li>
+                                            <li>Доступность: ANY</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <div class="ps">* Примечание: продолжительность поездки, указанная в этом маршруте,
+                                    может быть изменена из-за дороги, движения и погоды
+                                </div>
+                                <div class="ps">Условия. Эти предлагаемые длительности являются оценочными от точки к
+                                    точке без каких-либо остановок.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content tab-3">
+                        <div class="container-mini">
+                            <div class="tour-program">
+                                <div class="steps">
+                                    <div class="step">
+                                        <span class="step-icon">1</span>
+                                        <h4 class="title-tertiary"><strong>1 - день. ANY</strong></h4>
+                                        <div>
+                                            <img src="{% static 'touristApp/images/srilanka-1.jpg' %}" alt="">
+                                        </div>
+                                        <p class="text">Первый день вашего тура поможет вам расслабиться и отдохнуть
+                                            после полета в приморском городе Негомбо, где вы можете прогуляться по
+                                            одному из крупнейших пляжей страны, а также попробовать поливку свежими
+                                            морепродуктами, о которых вы вспоминаете на ваши путешествия на райском
+                                            острове и омолодить себя перед отъездом</p>
+                                        <ul class="list-disc">
+                                            <li>Прибытие и помощь в аэропорту Прибыть в Негомбо</li>
+                                            <li>Посетите канал Гамильтон и старый голландский форт в Негомбо</li>
+                                        </ul>
+                                    </div>
+                                    <div class="step">
+                                        <span class="step-icon">2</span>
+                                        <h4 class="title-tertiary"><strong>2 - день. ANY</strong></h4>
+                                        <div>
+                                            <img src="{% static 'touristApp/images/srilanka-2.jpg' %}" alt="">
+                                        </div>
+                                        <p class="text">Сегодня Сигирия предлагает своим посетителям галерею картин 5-го
+                                            века, укомплектованных ландшафтными садами, не имеющими себе равных ни в
+                                            одной современной цитадели мира. В 600 футах, вид из королевского павильона
+                                            сестренки потрясающе красив. Валун и сады удовольствий, которыми восхищались
+                                            1500 лет, отражают мастерство и технику первых инженеров. принципы,
+                                            используемые при проектировании садов, а также при строительстве как
+                                            симметричных, так и асимметричных структур, в значительной степени говорят
+                                            об искусстве и архитектуре Шри-Ланки 5-го века</p>
+                                        <ul class="list-disc">
+                                            <li>После завтрака в отеле, продолжить путь в Сигирию</li>
+                                            <li>По пути посетите самый удивительный "Pinnawala" детский приют для слонов
+                                                на пути к Сигири
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="step">
+                                        <span class="step-icon">3</span>
+                                        <h4 class="title-tertiary"><strong>3 - день. ANY</strong></h4>
+                                        <div>
+                                            <img src="{% static 'touristApp/images/srilanka-3.jpg' %}" alt="">
+                                        </div>
+                                        <p class="text">Канди, культурная столица Шри-Ланки, является одним из самых
+                                            красивых городов в мире. Эта столица, найденная Вималадхарамсурья I в 1592
+                                            году, была резиденцией правительства во время голландской и португальской
+                                            оккупации морских провинций и вплоть до британского правления в 1815 году.
+                                            Она расположена на плато, окруженном горами, где находятся чайные плантации
+                                            и тропические леса, обитающие в биоразнообразии.</p>
+                                        <ul class="list-disc">
+                                            <li>После завтрака в отеле переезд в Канди</li>
+                                            <li>По дороге посещение пещерного храма Дамбулла</li>
+                                        </ul>
+                                    </div>
+                                    <div class="step">
+                                        <span class="step-icon">4</span>
+                                        <h4 class="title-tertiary"><strong>4 - день.ANY</strong></h4>
+                                        <div>
+                                            <img src="{% static 'touristApp/images/srilanka-4.jpg' %}" alt="">
+                                        </div>
+                                        <p class="text">Нувара Элия, известная как город-сад в Азии своими холмами,
+                                            долинами и водопадами, находится на высоте 6 182 фута над уровнем моря и
+                                            расположена у подножия горы Пидуруталагала, самой высокой вершины Шри-Ланки.
+                                            Нувара Элия была открыта в 1819 году сэром Сэмюэлем Бейкером, известным
+                                            исследователем, открывшим источник Нила. После этого была основана
+                                            английская деревня, остатки которой все еще можно увидеть. Колониальное
+                                            правительство обычно переезжало в Нувара Элия на 3 месяца в году: март,
+                                            апрель и май, когда в Коломбо было тепло и влажно.</p>
+                                        <ul class="list-disc">
+                                            <li>После завтрака в отеле переезд в Нувара Элия</li>
+                                            <li>По дороге в Нувара Элия (Маленькая Англия), возле района «Рамбода»,
+                                                остановка в индуистском храме «Шри Бхакта Хануман» на несколько минут
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="step">
+                                        <span class="step-icon">5</span>
+                                        <h4 class="title-tertiary"><strong>5 - день. ANY</strong></h4>
+                                        <div>
+                                            <img src="{% static 'touristApp/images/srilanka-5.jpg' %}" alt="">
+                                        </div>
+                                        <p class="text">Бентота - город на южном побережье Шри-Ланки, который заставит
+                                            вас затаить дыхание. С видом на Индийский океан, тропическую лагуну и реку
+                                            Мааду, он предлагает вам возможность заняться множеством водных видов
+                                            спорта, таких как пара-парусный спорт и водные лыжи, кайт-серфинг, дайвинг и
+                                            другие водные виды спорта, как нигде больше. Или, может быть, тихое речное
+                                            сафари по водам реки Мааду или лагуна вам больше по душе. В Бентоте также
+                                            расположен длинный пляж, который в основном не переполнен, что делает его
+                                            идеальным для длительных пляжных прогулок или прогулок в бодрящем морском
+                                            воздухе.</p>
+                                        <ul class="list-disc">
+                                            <li>После завтрака в отеле переезд в Бентоту</li>
+                                            <li>Посетите красивый форт Галле и примите участие в экскурсии по городу
+                                                Галле
+                                            </li>
+                                            <li>Затем испытайте удивительную поездку на лодке по реке Маду через
+                                                мангровые заросли (красные водные деревья)
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="step">
+                                        <span class="step-icon">6</span>
+                                        <h4 class="title-tertiary"><strong>6 - день. ANY</strong></h4>
+                                        <div>
+                                            <img src="{% static 'touristApp/images/srilanka-6.jpg' %}" alt="">
+                                        </div>
+                                        <p class="text">Коломбо, столица Шри-Ланки, объединяет старое и новое.
+                                            Колониальные руины и здания контрастируют с высотными отелями и
+                                            коммерческими банками. Почти каждый, кто посещает Шри-Ланку, проводит время
+                                            в этом оживленном городе. Коломбо, порт восьмого века, имеет
+                                            административные, финансовые и другие офисы, имеющие отношение к
+                                            путешественнику. Часть других офисов, имеющих отношение к путешественнику.
+                                            Часть лучших структур его колониального наследия. Город за несколько этапов
+                                            превратился в современный город.</p>
+                                        <ul class="list-disc">
+                                            <li>После завтрака в отеле переезд в Коломбо</li>
+                                            <li>Посетите Галле Лицо Зеленый и Старый Парламент в Шри-Ланке</li>
+                                            <li>Занятой Коломбо Форт Базар, Красная мечеть и голландский музей.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="step">
+                                        <span class="step-icon">7</span>
+                                        <h4 class="title-tertiary"><strong>7 - день. Отъезд</strong></h4>
+                                        <ul class="list">
+                                            <li>После завтрака в отеле в аэропорт</li>
+                                            <li>До свидания от Olanka Travels</li>
+                                        </ul>
+                                        <div>
+                                            <img src="{% static 'touristApp/images/srilanka-tour-map.jpg' %}"
+                                                 alt="Тур карты в Шри-Ланку">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content tab-4">
+                        <div class="container">
+                            <div class="hotel">
+                                <div class="row">
+                                    <div class="hotel-content">
+                                        <h3 class="hotel-title">Elegance East Hotel - Бутик Класс</h3>
+                                        <div class="hotel-stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="hotel-infotext">Barbaros Mahallesi Atatürk Cad No: 42 / C, Муратпаша,
+                                            Анталия, Анталья, 7100, Турция 4-звездочный отель с открытым бассейном,
+                                            недалеко от Часовой башни</p>
+                                        <ul class="hotel-price">
+                                            <p>Стоимость: $395 (7 дней)</p>
+                                            <li>+ Полный завтрак</li>
+                                            <li>+ WiFi</li>
+                                            <li>+ Парковка</li>
+                                        </ul>
+                                    </div>
+                                    <div class="hotel-photo">
+                                        <img class="hotel-image hide-xs"
+                                             src="{% static 'touristApp/images/hotels/elegance-east-hotel.jpg' %}"
+                                             alt="Отель Elegance East">
+                                        <img class="hotel-image show-xs"
+                                             src="{% static 'touristApp/images/hotels/elegance-east-hotel-xs.jpg' %}"
+                                             alt="Отель Elegance East">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hotel">
+                                <div class="row">
+                                    <div class="hotel-content">
+                                        <h3 class="hotel-title">Liberty Hotels Lara</h3>
+                                        <div class="hotel-stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="hotel-infotext">Частный пляж Кемерагзи Мевки, Лара Кунду, Анталия,
+                                            Анталия, 07230, Турция Комплексный пляжный комплекс со спа, недалеко от
+                                            пляжа Лара</p>
+                                        <ul class="hotel-price">
+                                            <p>Стоимость: $806 (7 дней)</p>
+                                            <li>+ Завтрак "шведский стол"</li>
+                                            <li>+ WiFi</li>
+                                            <li>+ Парковка</li>
+                                        </ul>
+                                    </div>
+                                    <div class="hotel-photo">
+                                        <img class="hotel-image hide-xs"
+                                             src="{% static 'touristApp/images/hotels/liberty-lara.jpg' %}"
+                                             alt="Отель Liberty Hotels Lara">
+                                        <img class="hotel-image show-xs"
+                                             src="{% static 'touristApp/images/hotels/liberty-lara-xs.jpg' %}"
+                                             alt="Отель Liberty Hotels Lara ">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hotel">
+                                <div class="row">
+                                    <div class="hotel-content">
+                                        <h3 class="hotel-title">Fame Residence Lara & Spa</h3>
+                                        <div class="hotel-stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="hotel-infotext">Частный пляж Kemerağzı mevkii Lara, Анталия, Турция
+                                            Высококлассный пляжный комплекс со спа-центром, недалеко от торгового центра
+                                            Antalium Premium</p>
+                                        <ul class="hotel-price">
+                                            <p>Стоимость: $806 (7 дней)</p>
+                                            <li>+ Завтрак "шведский стол"</li>
+                                            <li>+ WiFi</li>
+                                            <li>+ Парковка</li>
+                                        </ul>
+                                    </div>
+                                    <div class="hotel-photo">
+                                        <img class="hotel-image hide-xs"
+                                             src="{% static 'touristApp/images/hotels/fame-residance-lara.jpg' %}"
+                                             alt="Отель Fame Residence Lara & Spa">
+                                        <img class="hotel-image show-xs"
+                                             src="{% static 'touristApp/images/hotels/fame-residance-lara-xs.jpg' %}"
+                                             alt="Отель Fame Residence Lara & Spa">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content tab-5">
+                        <div class="container">
+                            <h2 class="title-tertiary">Цена путевки на один человек: NN.NNN.NNNсум</h2>
+                            <h3 class="title-tertiary">Политика отмены Тура</h3>
+                            <ul class="list-disc">
+                                <li>В случае отмены применяются следующие сборы за отмену.</li>
+                                <li>Отмена, сделанная до 30 дней от запланированного начала тура, 80% от общей стоимости
+                                    тура будет возвращена.
+                                </li>
+                                <li>Аннулирование менее чем за 30 дней с начала тура - нулевой возврат.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-content tab-6">
+                        <div class="container-mini center">
+                            <div class="full">
+                                <img data-src-webp="{% static 'touristApp/images/webp/hamilton-canal.webp' %}"
+                                     class="hide-xs" src="{% static 'touristApp/images/hamilton-canal.jpg' %}" alt="">
+                                <img data-src-webp="{% static 'touristApp/images/webp/hamilton-canal-xs.webp' %}"
+                                     class="show-xs" src="{% static 'touristApp/images/hamilton-canal-xs.jpg' %}"
+                                     alt="">
+                                <p>Этот канал протяженностью 14,5 км соединяет Коломбо и Негомбо, построенный британцами
+                                    в 1802 году. Он был спроектирован для отвода соленой воды из водно-болотных угодий
+                                    Мутураджавела</p>
+                            </div>
+                            <div class="full">
+                                <img data-src-webp="{% static 'touristApp/images/webp/cobra_cave.webp' %}"
+                                     class="hide-xs" src="{% static 'touristApp/images/cobra_cave.jpg' %}" alt="">
+                                <img data-src-webp="{% static 'touristApp/images/webp/cobra_cave-xs.webp' %}"
+                                     class="show-xs" src="{% static 'touristApp/images/cobra_cave-xs.jpg' %}" alt="">
+                                <p>Пещера кобры</p>
+                            </div>
+                            <div class="full">
+                                <img data-src-webp="{% static 'touristApp/images/webp/lion-scale.webp' %}"
+                                     class="hide-xs" src="{% static 'touristApp/images/lion-scale.jpg' %}" alt="">
+                                <img data-src-webp="{% static 'touristApp/images/webp/lion-scale-xs.webp' %}"
+                                     class="show-xs" src="{% static 'touristApp/images/lion-scale-xs.jpg' %}" alt="">
+                                <p>Заложен в список Всемирного наследия ЮНЕСКО в 1982 году, возвышается на 200 метров
+                                    над лесной равниной, построенной одержимым монархом в 5 веке..</p>
+                            </div>
+                            <div class="full">
+                                <img data-src-webp="{% static 'touristApp/images/webp/amman-kovil.webp' %}"
+                                     class="hide-xs" src="{% static 'touristApp/images/amman-kovil.jpg' %}" alt="">
+                                <img data-src-webp="{% static 'touristApp/images/webp/amman-kovil-xs.webp' %}"
+                                     class="show-xs" src="{% static 'touristApp/images/amman-kovil-xs.jpg' %}" alt="">
+                                <p>Сита Амман Ковиль</p>
+                                <p>Храм Шри Ситай в Аммане - это уникальный храм. Озеро Григорий является водохранилищем
+                                    в центре города, расположенного на холме, Нувара, построенная в месте, где Сита Мата
+                                    проводила свои дни в Элии. Он был построен в период британской тюрьмы в Раване
+                                    приблизительно 5000 лет назад губернатором сэром Уильямом Грегори в 1873 году.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="details-modal egypt">
+        <span class="close"><i class="fas fa-times"></i></span>
+        <div class="content">
+            <h3 class="title-secondary">Египет</h3>
+            <div class="tab">
+                <input type="radio" id="checkbox-egypt-1" class="checkbox checkbox-1" name="tab-egypt" checked>
+                <input type="radio" id="checkbox-egypt-2" class="checkbox checkbox-2" name="tab-egypt">
+                <input type="radio" id="checkbox-egypt-3" class="checkbox checkbox-3" name="tab-egypt">
+                <input type="radio" id="checkbox-egypt-4" class="checkbox checkbox-4" name="tab-egypt">
+                <input type="radio" id="checkbox-egypt-5" class="checkbox checkbox-5" name="tab-egypt">
+
+                <div class="tab-nav">
+                    <div class="tab-item">
+                        <label for="checkbox-egypt-1" class="checker checker-1">
+                            <i class="fas fa-file-alt"></i>
+                            <p>Описание</p>
+                        </label>
+                    </div>
+                    <div class="tab-item">
+                        <label for="checkbox-egypt-2" class="checker checker-2">
+                            <i class="fas fa-hand-holding-usd"></i>
+                            <p>В стоимосте</p>
+                        </label>
+                    </div>
+                    <div class="tab-item">
+                        <label for="checkbox-egypt-3" class="checker checker-3">
+                            <i class="fas fa-list"></i>
+                            <p>Программа</p>
+                        </label>
+                    </div>
+                    <div class="tab-item">
+                        <label for="checkbox-egypt-4" class="checker checker-4">
+                            <i class="fas fa-hotel"></i>
+                            <p>Отели</p>
+                        </label>
+                    </div>
+                    <div class="tab-item">
+                        <label for="checkbox-egypt-5" class="checker checker-5">
+                            <i class="fas fa-coins"></i>
+                            <p>Цены</p>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="tabs">
+                    <div class="tab-content tab-1">
+                        <div class="container center">
+                            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+                                deserunt veniam quaerat repellendus rem iusto ut tenetur eligendi nobis at
+                                necessitatibus architecto, cum nulla nostrum suscipit obcaecati sint perferendis non.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate velit vitae, numquam
+                                dolor expedita beatae similique ab porro sapiente incidunt ipsa voluptates illum facilis
+                                molestias autem vel asperiores! Adipisci, labore.</p>
+                            <div class="flex-around-center row-with-price">
+                                <div class="price">Цена: NN.NNN.NNNсум <span class="nowrap">(на 1 человека)</span></div>
+                                <h3 class="title-tertiary">Длительность: 2 дня/ 2 ночи</h3><br>
+                            </div>
+                            {% include 'Modals/modalsOrder.html' %}
+                            <!--<input type="hidden" name="tour" value="Турция">-->
+                        </div>
+                    </div>
+                    <div class="tab-content tab-2">
+                        <div class="container">
+                            <div class="flex-around in-cost">
+                                <div class="left">
+                                    <h3 class="title-tertiary">В стоимость тура входит:</h3>
+                                    <ul class="plane">
+                                        <li>Встреча в аэропорту</li>
+                                        <li>2 ночи проживания в гостинице в Каире на основе кровать и завтрак</li>
+                                        <li>1-дневный тур в Каире с посещением Великих пирамид, Сфинкса, Мемфиса и
+                                            Саккра
+                                        </li>
+                                        <li>1-дневный тур в Каире с посещением Египетского музея и Старого Каира.</li>
+                                        <li>Все трансферы в Каире.</li>
+                                        <li>Все ваши туры и экскурсии на автомобиле</li>
+                                        <li>Экспертный гид.</li>
+                                        <li>Все ваши посещения включают входные билеты</li>
+                                        <li>Наши цены включают все налоги и услуги.</li>
+                                    </ul>
+                                </div>
+                                <div class="right">
+                                    <h3 class="title-tertiary">В стоимость тура не входит:</h3>
+                                    <ul class="plane">
+                                        <li>Авиа-перелёты</li>
+                                        <li>Въездная виза в египет. Мы можем предоставить вам визу по прибытии по вашему
+                                            запросу.
+                                        </li>
+                                        <li>Напитки и любые личные расходы.</li>
+                                        <li>Чаевые Нигине :)</li>
+                                        <li>Личные расходы</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="tour-car">
+                                <div class="row">
+                                    <div class="photo">
+                                        <img src="{% static 'touristApp/images/srilanka-car.jpg' %}" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <ul class="list-disc">
+                                            <li>Марка: ANY</li>
+                                            <li>Модель: ANY</li>
+                                            <li>Состояние: ANY</li>
+                                            <li>Сидении: ANY</li>
+                                            <li>Максимальная вместимость: ANY</li>
+                                            <li>Багажное отделение: ANY</li>
+                                            <li>Кондиционер: ANY</li>
+                                            <li>Доступность: ANY</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <div class="ps">* Примечание: продолжительность поездки, указанная в этом маршруте,
+                                    может быть изменена из-за дороги, движения и погоды
+                                </div>
+                                <div class="ps">Условия. Эти предлагаемые длительности являются оценочными от точки к
+                                    точке без каких-либо остановок.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content tab-3">
+                        <div class="container-mini">
+                            <div class="tour-program">
+                                <div class="steps">
+                                    <div class="step">
+                                        <span class="step-icon">1</span>
+                                        <h4 class="title-tertiary"><strong>1 - день. Прибытие - Египетский музей и
+                                            Старый Каир</strong></h4>
+                                        <div>
+                                            <img data-src-webp="{% static 'touristApp/images/webp/egypt-muzey.webp' %}"
+                                                 src="{% static 'touristApp/images/egypt-muzey.jpg' %}" alt="">
+                                        </div>
+                                        <p class="text">
+                                            По прибытии в аэропорт Каира наш представитель будет ждать вас с табличкой
+                                            Ramasside, затем вас отвезет на автомобиле A / C, чтобы вы могли посетить
+                                            Египетский музей, в котором представлены экспонаты периода фараонов.
+                                            В музее представлена редкая коллекция 5000-летнего искусства, которая
+                                            считается самой большой ценнейшей коллекцией египетского искусства в мире.
+                                            Представлено более 250 000 потрясающих артефактов, включая выставку,
+                                            посвященную коллекции сокровищ, золота и ювелирных украшений Тутанхамона,
+                                            которая находилась в его могиле более 3500 лет, прежде чем она была
+                                            обнаружена в 1920-х годах, когда его могила была раскопана.
+                                            Затем перейдите к посещению алебастровой мечети Мухаммеда Али и Цитадели
+                                            Салах Эль Дин. Отправляйтесь в Старый Каир, чтобы посетить Висячую церковь,
+                                            Абу Сиргу и Синагогу. Вернуться в ваш отель.
+                                            Примечание: если вы не сможете совершить экскурсию в этот день из-за
+                                            позднего времени прибытия, то вы можете совершить поездку в последний день
+                                            перед вылетом.
+                                            (Необязательно) Вечерняя поездка, чтобы насладиться ужином на борту круиза
+                                            по Нилу в течение 2 часов, включая просмотр египетских народных шоу.
+                                            Ночь в Каире.
+                                        </p>
+                                    </div>
+                                    <div class="step">
+                                        <span class="step-icon">2</span>
+                                        <h4 class="title-tertiary"><strong>2 - день. Пирамиды Гизы, Саккара и
+                                            Мемфис</strong></h4>
+                                        <div>
+                                            <img data-src-webp="{% static 'touristApp/images/webp/giza.webp' %}"
+                                                 src="{% static 'touristApp/images/giza.jpg' %}" alt="">
+                                        </div>
+                                        <p class="text">Завтрак. Наш гид заберет вас из отеля, чтобы отправиться на
+                                            экскурсию в пирамиды Хеопса, Хефрена и Микерина.
+                                            Затем перейдите к Великому Сфинксу, главе фараона с телом льва, который
+                                            восходит ко времени Хефрена; Тур также включает в себя посещение храма
+                                            долины, которая принадлежит пирамидам Хефрена.
+                                            Переезд в Ступенчатую пирамиду Зосера, старейшее в мире крупное каменное
+                                            сооружение. Он был построен в 3-й династии (около 2630 г. до н.э.) для
+                                            короля Джосера.
+                                            После этого переезда в Мемфис, который был основан королем Менесом и был
+                                            столицей Старого Египта во времена Старого царства, он считался центром
+                                            правления и культуры на протяжении более 3000 лет, первой столицей Египта, и
+                                            видел статую Рамзеса. II.
+                                            (Необязательно) Вечерняя поездка для посещения шоу Sound & Light в районе
+                                            Пирамид.
+                                            Ночь в Каире.
+                                        </p>
+                                    </div>
+                                    <div class="step">
+                                        <span class="step-icon">3</span>
+                                        <h4 class="title-tertiary"><strong>3 - день. Отъезд</strong></h4>
+                                        <p class="text">Завтрак в отеле, наш представитель доставит вас в аэропорт и
+                                            поможет в аэропорту при прохождении формальностей при окончательном
+                                            выезде.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content tab-4">
+                        <div class="container">
+                            <div class="hotel">
+                                <div class="row">
+                                    <div class="hotel-content">
+                                        <h3 class="hotel-title">Le Méridien Pyramids (Каир)</h3>
+                                        <div class="hotel-stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="hotel-infotext">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                            elit. Repellat quaerat amet, quam numquam officiis dolorum atque eos totam
+                                            commodi? Dolore ratione ex mollitia deserunt vero, nihil sit cumque
+                                            perspiciatis officia.</p>
+                                        <ul class="hotel-price">
+                                            <p>Стоимость: $nnn (n дней)</p>
+                                            <li>+ Полный завтрак</li>
+                                            <li>+ WiFi</li>
+                                            <li>+ Парковка</li>
+                                        </ul>
+                                    </div>
+                                    <div class="hotel-photo">
+                                        <img class="hotel-image hide-xs"
+                                             src="{% static 'touristApp/images/hotels/meridien-pyramids.jpg' %}"
+                                             alt="Отель Elegance East">
+                                        <img class="hotel-image show-xs"
+                                             src="{% static 'touristApp/images/hotels/meridien-pyramids-xs.jpg' %}"
+                                             alt="Отель Elegance East">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hotel">
+                                <div class="row">
+                                    <div class="hotel-content">
+                                        <h3 class="hotel-title">Steigenberger (Каир)</h3>
+                                        <div class="hotel-stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="hotel-infotext">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Provident non ad quos consectetur suscipit nulla ab recusandae
+                                            necessitatibus voluptate velit voluptas sint fuga maxime sit, nesciunt nobis
+                                            tempore reprehenderit possimus!</p>
+                                        <ul class="hotel-price">
+                                            <p>Стоимость: $nnn (n дней)</p>
+                                            <li>+ Завтрак "шведский стол"</li>
+                                            <li>+ WiFi</li>
+                                            <li>+ Парковка</li>
+                                        </ul>
+                                    </div>
+                                    <div class="hotel-photo">
+                                        <img class="hotel-image hide-xs"
+                                             src="{% static 'touristApp/images/hotels/steigenberger.jpg' %}"
+                                             alt="Отель Elegance East">
+                                        <img class="hotel-image show-xs"
+                                             src="{% static 'touristApp/images/hotels/steigenberger-xs.jpg' %}"
+                                             alt="Отель Elegance East">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hotel">
+                                <div class="row">
+                                    <div class="hotel-content">
+                                        <h3 class="hotel-title">Mercure (Каир)</h3>
+                                        <div class="hotel-stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="hotel-infotext">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Corrupti voluptatibus natus sequi consequuntur vel repellat deleniti
+                                            id error minima alias, omnis explicabo hic voluptatum. Praesentium
+                                            exercitationem ut tenetur itaque eum.</p>
+                                        <ul class="hotel-price">
+                                            <p>Стоимость: $nnn (n дней)</p>
+                                            <li>+ Завтрак "шведский стол"</li>
+                                            <li>+ WiFi</li>
+                                            <li>+ Парковка</li>
+                                        </ul>
+                                    </div>
+                                    <div class="hotel-photo">
+                                        <img class="hotel-image hide-xs"
+                                             src="{% static 'touristApp/images/hotels/mercure-hotel.jpg' %}"
+                                             alt="Отель Mercure">
+                                        <img class="hotel-image show-xs"
+                                             src="{% static 'touristApp/images/hotels/mercure-hotel-xs.jpg' %}"
+                                             alt="Отель Mercure">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hotel">
+                                <div class="row">
+                                    <div class="hotel-content">
+                                        <h3 class="hotel-title">Ramses Hilton Hotel (Каир)</h3>
+                                        <div class="hotel-stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="hotel-infotext">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Corrupti voluptatibus natus sequi consequuntur vel repellat deleniti
+                                            id error minima alias, omnis explicabo hic voluptatum. Praesentium
+                                            exercitationem ut tenetur itaque eum.</p>
+                                        <ul class="hotel-price">
+                                            <p>Стоимость: $nnn (n дней)</p>
+                                            <li>+ Завтрак "шведский стол"</li>
+                                            <li>+ WiFi</li>
+                                            <li>+ Парковка</li>
+                                        </ul>
+                                    </div>
+                                    <div class="hotel-photo">
+                                        <img class="hotel-image"
+                                             src="{% static 'touristApp/images/hotels/ramses-hilton.jpg' %}"
+                                             alt="Отель Ramses Hilton">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hotel">
+                                <div class="row">
+                                    <div class="hotel-content">
+                                        <h3 class="hotel-title">Steigenberger Nile Palace (Луксор)</h3>
+                                        <div class="hotel-stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="hotel-infotext">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Corrupti voluptatibus natus sequi consequuntur vel repellat deleniti
+                                            id error minima alias, omnis explicabo hic voluptatum. Praesentium
+                                            exercitationem ut tenetur itaque eum.</p>
+                                        <ul class="hotel-price">
+                                            <p>Стоимость: $nnn (n дней)</p>
+                                            <li>+ Завтрак "шведский стол"</li>
+                                            <li>+ WiFi</li>
+                                            <li>+ Парковка</li>
+                                        </ul>
+                                    </div>
+                                    <div class="hotel-photo">
+                                        <img class="hotel-image hide-xs"
+                                             src="{% static 'touristApp/images/hotels/steigenberger-nile-palace.jpg' %}"
+                                             alt="Отель Steigenberger Nile Palace">
+                                        <img class="hotel-image show-xs"
+                                             src="{% static 'touristApp/images/hotels/steigenberger-nile-palace-xs.jpg' %}"
+                                             alt="Отель Steigenberger Nile Palace">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hotel">
+                                <div class="row">
+                                    <div class="hotel-content">
+                                        <h3 class="hotel-title">Tolip Aswan Hotel (Луксор)</h3>
+                                        <div class="hotel-stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="hotel-infotext">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Corrupti voluptatibus natus sequi consequuntur vel repellat deleniti
+                                            id error minima alias, omnis explicabo hic voluptatum. Praesentium
+                                            exercitationem ut tenetur itaque eum.</p>
+                                        <ul class="hotel-price">
+                                            <p>Стоимость: $nnn (n дней)</p>
+                                            <li>+ Завтрак "шведский стол"</li>
+                                            <li>+ WiFi</li>
+                                            <li>+ Парковка</li>
+                                        </ul>
+                                    </div>
+                                    <div class="hotel-photo">
+                                        <img class="hotel-image"
+                                             src="{% static 'touristApp/images/hotels/tolip-aswan.jpg' %}"
+                                             alt="Отель Tolip Aswan">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hotel">
+                                <div class="row">
+                                    <div class="hotel-content">
+                                        <h3 class="hotel-title">Толип - Золотая жемчужина (Александрия)</h3>
+                                        <div class="hotel-stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="hotel-infotext">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Corrupti voluptatibus natus sequi consequuntur vel repellat deleniti
+                                            id error minima alias, omnis explicabo hic voluptatum. Praesentium
+                                            exercitationem ut tenetur itaque eum.</p>
+                                        <ul class="hotel-price">
+                                            <p>Стоимость: $nnn (n дней)</p>
+                                            <li>+ Завтрак "шведский стол"</li>
+                                            <li>+ WiFi</li>
+                                            <li>+ Парковка</li>
+                                        </ul>
+                                    </div>
+                                    <div class="hotel-photo">
+                                        <img class="hotel-image hide-xs"
+                                             src="{% static 'touristApp/images/hotels/tolip-alexandria.jpg' %}"
+                                             alt="Отель Толип - Золотая жемчужина">
+                                        <img class="hotel-image show-xs"
+                                             src="{% static 'touristApp/images/hotels/tolip-alexandria-xs.jpg' %}"
+                                             alt="Отель Толип - Золотая жемчужина">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hotel">
+                                <div class="row">
+                                    <div class="hotel-content">
+                                        <h3 class="hotel-title">Sheraton Montazah Hotel (Александрия)</h3>
+                                        <div class="hotel-stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="hotel-infotext">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Corrupti voluptatibus natus sequi consequuntur vel repellat deleniti
+                                            id error minima alias, omnis explicabo hic voluptatum. Praesentium
+                                            exercitationem ut tenetur itaque eum.</p>
+                                        <ul class="hotel-price">
+                                            <p>Стоимость: $nnn (n дней)</p>
+                                            <li>+ Завтрак "шведский стол"</li>
+                                            <li>+ WiFi</li>
+                                            <li>+ Парковка</li>
+                                        </ul>
+                                    </div>
+                                    <div class="hotel-photo">
+                                        <img class="hotel-image"
+                                             src="{% static 'touristApp/images/hotels/sheraton-montazah.jpg' %}"
+                                             alt="Отель Sheraton Montazah">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hotel">
+                                <div class="row">
+                                    <div class="hotel-content">
+                                        <h3 class="hotel-title">Continental Hotel (Александрия)</h3>
+                                        <div class="hotel-stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="hotel-infotext">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Corrupti voluptatibus natus sequi consequuntur vel repellat deleniti
+                                            id error minima alias, omnis explicabo hic voluptatum. Praesentium
+                                            exercitationem ut tenetur itaque eum.</p>
+                                        <ul class="hotel-price">
+                                            <p>Стоимость: $nnn (n дней)</p>
+                                            <li>+ Завтрак "шведский стол"</li>
+                                            <li>+ WiFi</li>
+                                            <li>+ Парковка</li>
+                                        </ul>
+                                    </div>
+                                    <div class="hotel-photo">
+                                        <img class="hotel-image hide-xs"
+                                             src="{% static 'touristApp/images/hotels/continental-hurgharda.jpg' %}"
+                                             alt="Отель Continental Hotel">
+                                        <img class="hotel-image show-xs"
+                                             src="{% static 'touristApp/images/hotels/continental-hurgharda-xs.jpg' %}"
+                                             alt="Отель Continental Hotel">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hotel">
+                                <div class="row">
+                                    <div class="hotel-content">
+                                        <h3 class="hotel-title">MS Radamis (Круиз по нилу)</h3>
+                                        <div class="hotel-stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="hotel-infotext">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Corrupti voluptatibus natus sequi consequuntur vel repellat deleniti
+                                            id error minima alias, omnis explicabo hic voluptatum. Praesentium
+                                            exercitationem ut tenetur itaque eum.</p>
+                                        <ul class="hotel-price">
+                                            <p>Стоимость: $nnn (n дней)</p>
+                                            <li>+ Завтрак "шведский стол"</li>
+                                            <li>+ WiFi</li>
+                                            <li>+ Парковка</li>
+                                        </ul>
+                                    </div>
+                                    <div class="hotel-photo">
+                                        <img class="hotel-image"
+                                             src="{% static 'touristApp/images/hotels/ms-radamis.jpg' %}"
+                                             alt="Круиз MS Radamis">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content tab-5">
+                        <div class="container">
+                            <h2 class="title-tertiary">Цена путевки на один человек: NN.NNN.NNNсум</h2>
+                            <h3 class="title-tertiary">Политика отмены Тура</h3>
+                            <ul class="list-disc">
+                                <li>В случае отмены применяются следующие сборы за отмену.</li>
+                                <li>Отмена, сделанная до 30 дней от запланированного начала тура, 80% от общей стоимости
+                                    тура будет возвращена.
+                                </li>
+                                <li>Аннулирование менее чем за 30 дней с начала тура - нулевой возврат.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="details-modal bali">
+        <span class="close"><i class="fas fa-times"></i></span>
+        <div class="content">
+            <h3 class="title-secondary">Египет</h3>
+            <div class="tab">
+                <input type="radio" id="checkbox-bali-1" class="checkbox checkbox-1" name="tab-bali">
+                <input type="radio" id="checkbox-bali-2" class="checkbox checkbox-2" name="tab-bali">
+                <input type="radio" id="checkbox-bali-3" class="checkbox checkbox-3" name="tab-bali">
+                <input type="radio" id="checkbox-bali-4" class="checkbox checkbox-4" name="tab-bali" checked>
+                <input type="radio" id="checkbox-bali-5" class="checkbox checkbox-5" name="tab-bali">
+
+                <div class="tab-nav">
+                    <div class="tab-item">
+                        <label for="checkbox-bali-1" class="checker checker-1">
+                            <i class="fas fa-file-alt"></i>
+                            <p>Описание</p>
+                        </label>
+                    </div>
+                    <div class="tab-item">
+                        <label for="checkbox-bali-2" class="checker checker-2">
+                            <i class="fas fa-hand-holding-usd"></i>
+                            <p>В стоимосте</p>
+                        </label>
+                    </div>
+                    <div class="tab-item">
+                        <label for="checkbox-bali-3" class="checker checker-3">
+                            <i class="fas fa-list"></i>
+                            <p>Программа</p>
+                        </label>
+                    </div>
+                    <div class="tab-item">
+                        <label for="checkbox-bali-4" class="checker checker-4">
+                            <i class="fas fa-hotel"></i>
+                            <p>Отели</p>
+                        </label>
+                    </div>
+                    <div class="tab-item">
+                        <label for="checkbox-bali-5" class="checker checker-5">
+                            <i class="fas fa-coins"></i>
+                            <p>Цены</p>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="tabs">
+                    <div class="tab-content tab-1">
+                        <div class="container center">
+                            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+                                deserunt veniam quaerat repellendus rem iusto ut tenetur eligendi nobis at
+                                necessitatibus architecto, cum nulla nostrum suscipit obcaecati sint perferendis non.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate velit vitae, numquam
+                                dolor expedita beatae similique ab porro sapiente incidunt ipsa voluptates illum facilis
+                                molestias autem vel asperiores! Adipisci, labore.</p>
+                            <div class="flex-around-center row-with-price">
+                                <div class="price">Цена: $910 <span class="nowrap">(на 1 человека)</span></div>
+                                <h3 class="title-tertiary">Длительность: 2 дня/ 2 ночи</h3><br>
+                            </div>
+                            {% include 'Modals/modalsOrder.html' %}
+                            <!--<input type="hidden" name="tour" value="Турция">-->
+                        </div>
+                    </div>
+                    <div class="tab-content tab-2">
+                        <div class="container">
+                            <div class="flex-around in-cost">
+                                <div class="left">
+                                    <h3 class="title-tertiary">В стоимость тура входит:</h3>
+                                    <ul class="plane">
+                                        <li>Все трансферы по маршруту</li>
+                                        <li>7 ночей</li>
+                                        <li>7 завтраков</li>
+                                        <li>6 дней экскурсий</li>
+                                    </ul>
+                                </div>
+                                <div class="right">
+                                    <h3 class="title-tertiary">В стоимость тура не входит:</h3>
+                                    <ul class="plane">
+                                        <li>Авиа-перелёты</li>
+                                        <li>Услуги фирмы</li>
+                                        <li>Медицинская страховка</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="tour-car">
+                                <div class="row">
+                                    <div class="photo">
+                                        <img src="{% static 'touristApp/images/srilanka-car.jpg' %}" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <ul class="list-disc">
+                                            <li>Марка: ANY</li>
+                                            <li>Модель: ANY</li>
+                                            <li>Состояние: ANY</li>
+                                            <li>Сидении: ANY</li>
+                                            <li>Максимальная вместимость: ANY</li>
+                                            <li>Багажное отделение: ANY</li>
+                                            <li>Кондиционер: ANY</li>
+                                            <li>Доступность: ANY</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <div class="ps">* Примечание: продолжительность поездки, указанная в этом маршруте,
+                                    может быть изменена из-за дороги, движения и погоды
+                                </div>
+                                <div class="ps">Условия. Эти предлагаемые длительности являются оценочными от точки к
+                                    точке без каких-либо остановок.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content tab-3">
+                        <div class="container-mini">
+                            <div class="tour-program">
+                                <div class="steps">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content tab-4">
+                        <div class="container">
+                            <div class="hotel">
+                                <div class="row">
+                                    <div class="hotel-content">
+                                        <h3 class="hotel-title">The Anvaya Beach Resort Bali</h3>
+                                        <div class="hotel-stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="hotel-infotext">5-звездочный пляжный отель с баром / lounge, недалеко
+                                            от торгового центра Lippo. Отлично подходит для семей.</p>
+                                        <ul class="hotel-price">
+                                            <p>Стоимость: $nnn (3 дней)</p>
+                                            <li>+ Полный завтрак</li>
+                                            <li>+ WiFi</li>
+                                            <li>+ Парковка</li>
+                                        </ul>
+                                    </div>
+                                    <div class="hotel-photo">
+                                        <img class="hotel-image hide-xs" src="https://placehold.it/800x450"
+                                             alt="Отель Elegance East">
+                                        <img class="hotel-image show-xs" src="https://placehold.it/400x350"
+                                             alt="Отель Elegance East">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hotel">
+                                <div class="row">
+                                    <div class="hotel-content">
+                                        <h3 class="hotel-title">Villa Kayu Raja</h3>
+                                        <div class="hotel-stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="hotel-infotext">5-звездочный пляжный отель с баром / lounge, недалеко
+                                            от торгового центра Lippo. Отлично подходит для семей.</p>
+                                        <ul class="hotel-price">
+                                            <p>Стоимость: $nnn (3 ночи)</p>
+                                            <li>+ Полный завтрак</li>
+                                            <li>+ WiFi</li>
+                                            <li>+ Парковка</li>
+                                        </ul>
+                                    </div>
+                                    <div class="hotel-photo">
+                                        <img class="hotel-image hide-xs" src="https://placehold.it/800x450"
+                                             alt="Отель Elegance East">
+                                        <img class="hotel-image show-xs" src="https://placehold.it/400x350"
+                                             alt="Отель Elegance East">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content tab-5">
+                        <div class="container">
+                            <h2 class="title-tertiary">Цена путевки на один человек: NN.NNN.NNNсум</h2>
+                            <h3 class="title-tertiary">Политика отмены Тура</h3>
+                            <ul class="list-disc">
+                                <li>В случае отмены применяются следующие сборы за отмену.</li>
+                                <li>Отмена, сделанная до 30 дней от запланированного начала тура, 80% от общей стоимости
+                                    тура будет возвращена.
+                                </li>
+                                <li>Аннулирование менее чем за 30 дней с начала тура - нулевой возврат.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="medtour-modal india">
+    <span class="close"><i class="fas fa-times"></i></span>
+    <div class="content">
+        <h2 class="title-primary">Медицинский тур в Индию</h2>
+        <div class="block-1 row">
+            <div class="left">
+                <div class="img" style="background-image: url({% static 'touristApp/images/india-med.jpg' %});"></div>
+                <h4>1200+ врачей</h4>
+            </div>
+            <div class="right">
+                <div class="img"
+                     style="background-image: url({% static 'touristApp/images/india-bolnitsy.jpg' %});"></div>
+                <h4>100+ больниц</h4>
+            </div>
+        </div>
+        <div class="block-2">
+            <h3 class="title-secondary">Как мы работаем?</h3>
+            <ul>
+                <li>Этап 1 - связаться с нами</li>
+                <li>Этап 2 - бесплатная медицинская консультация и оценка затрат</li>
+                <li>Этап 3 - выберите Ваш вариант, "Guide Me" организует вашу медицинскую визу</li>
+                <li>Этап 4 - добро пожаловать в Индию, получите лечение, "Guide Me" организует все обязательства</li>
+                <li>Этап 5 - "Guide Me" организует проверку после лечения</li>
+                <li>Этап 6 - возвращение в свою страну здоровым и счастливым</li>
+            </ul>
+        </div>
+        <div class="block-3 row">
+            <div class="item"><img src="{% static 'touristApp/images/fortis.jpg' %}" alt=""></div>
+            <div class="item"><img src="{% static 'touristApp/images/medanta.jpg' %}" alt=""></div>
+            <div class="item"><img src="{% static 'touristApp/images/max-hosp.jpg' %}" alt=""></div>
+            <div class="item"><img src="{% static 'touristApp/images/artemis-hosp.jpg' %}" alt=""></div>
+            <div class="item"><img src="{% static 'touristApp/images/blk.jpg' %}" alt=""></div>
+            <div class="item"><img src="{% static 'touristApp/images/apollo.png' %}" alt=""></div>
+            <div class="item"><img src="{% static 'touristApp/images/glenagles-hosp.jpg' %}" alt=""></div>
+        </div>
+        <div class="block-4">
+            <h2 class="title-secondary">Список лечений</h2>
+            <div class="row">
+                <div class="item"><img src="{% static 'touristApp/images/онкология (рак).jpg' %}" alt=""> Онкалогия
+                    (Рак)
+                </div>
+                <div class="item"><img src="{% static 'touristApp/images/трансплантация печени.jpg' %}" alt="">
+                    Трансплантация печени
+                </div>
+                <div class="item"><img src="{% static 'touristApp/images/ортопедия.jpg' %}" alt=""> Ортопедия</div>
+                <div class="item"><img src="{% static 'touristApp/images/лечение бесплодия.jpg' %}" alt=""> Лечения
+                    бесплодия и получить Экстрокорполальное оплодотворение (ЭКО).
+                </div>
+                <div class="item"><img src="{% static 'touristApp/images/нейро и позвоночник.jpg' %}" alt=""> Нейро и
+                    позвоночник
+                </div>
+                <div class="item"><img src="{% static 'touristApp/images/хирургия глаза.png' %}" alt=""> Хирургия глаз
+                </div>
+                <div class="item"><img src="{% static 'touristApp/images/кардиология.jpg' %}" alt=""> Кардиология</div>
+                <div class="item"><img src="{% static 'touristApp/images/трансплантация костного мозга.jpg' %}" alt="">
+                    Трансплантант костного мозга
+                </div>
+                <div class="item"><img src="{% static 'touristApp/images/трансплантация почки.jpg' %}" alt="">
+                    Трансплантация почки
+                </div>
+                <div class="item"><img src="{% static 'touristApp/images/трансплантация сердаца и легких.jpg' %}"
+                                       alt=""> Трансплантация сердца и легких
+                </div>
+            </div>
+        </div>
+        <div class="block-5">
+            <h2 class="title-secondary">Наши услуги</h2>
+            <div class="row">
+                <div class="item"><img src="{% static 'touristApp/images/tick.svg' %}" alt="">24x7 помощь</div>
+                <div class="item"><img src="{% static 'touristApp/images/tick.svg' %}" alt="">Планирование поездки</div>
+                <div class="item"><img src="{% static 'touristApp/images/tick.svg' %}" alt="">Трансфер из аэропорта
+                </div>
+                <div class="item"><img src="{% static 'touristApp/images/tick.svg' %}" alt="">Индивидуальный пакет</div>
+                <div class="item"><img src="{% static 'touristApp/images/tick.svg' %}" alt="">Языковая помощь</div>
+                <div class="item"><img src="{% static 'touristApp/images/tick.svg' %}" alt="">Доставка лекарств</div>
+                <div class="item"><img src="{% static 'touristApp/images/tick.svg' %}" alt="">Визовая помощь</div>
+                <div class="item"><img src="{% static 'touristApp/images/tick.svg' %}" alt="">Местная сим-карта</div>
+                <div class="item"><img src="{% static 'touristApp/images/tick.svg' %}" alt="">Туристические пакеты</div>
+                <div class="item"><img src="{% static 'touristApp/images/tick.svg' %}" alt="">Проживание</div>
+                <div class="item"><img src="{% static 'touristApp/images/tick.svg' %}" alt="">Обмен валют</div>
+                <div class="item"><img src="{% static 'touristApp/images/tick.svg' %}" alt="">Уход после лечения</div>
+            </div>
+        </div>
+        <div class="block-order">
+            <form class="order-tour">
+                <h3 class="title-tertiary">Оставьте заявку и мы вам перезвоним!</h3>
+                <input type="text" name="name" placeholder="Имя">
+                <input type="tel" name="phone" placeholder="Телефон">
+                <input type="text" name="type" placeholder="Вид лечения">
+                <input type="hidden" name="tour" value="Медицинский тур в Индию">
+                <input type="submit" class="btn-primary" value="Оставить заявку">
+            </form>
+        </div>
+    </div>
+</div>
